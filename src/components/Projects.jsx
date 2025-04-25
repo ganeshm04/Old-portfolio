@@ -3,24 +3,16 @@ import ems from "../assets/employee-ms.png";
 import chat_app from "../assets/chat_app.png";
 import dab from "../assets/dab.png";
 import ecom from "../assets/ecom.jpeg";
+import Ai_job_coach from "../assets/Ai_job_coach.png";
 
 const projects = [
   {
-    id: 1,
-    name: "Employee Management App",
-    technologies: "React JS,Node JS,Local Storage",
-    image: ems,
-    github: "https://github.com/ganeshm04/EMS",
-    live:"https://ganeshm04.github.io/EMS/"
+    id:1,
+    name: "AI Job Coach ",
+    technologies: "Next JS, Gemini API, Supabase(PostgreSQL), Prisma, Inngest, Clerk(Auth), React,  TailwindCSS, ShadCN, Javascript  ",
+    image: Ai_job_coach,
+    github: "https://github.com/ganeshm04/Ai-Job-Coach",
   },
-  // {
-  //   id: 2,
-  //   name: "Doctor Appointment Booking App",
-  //   technologies: "React JS,Node JS,Express JS",
-  //   image: dab,
-  //   github: "https://github.com/ganeshm04/DAB_app",
-  //   live: "https://ganeshm04.github.io/DAB_app/",
-  // },
   {
     id: 2,
     name: "Real Time Chat App",
@@ -30,12 +22,28 @@ const projects = [
     live: "https://full-stack-chat-app-bcvt.onrender.com/signup",
   },
   {
-    id:3,
+    id: 3,
+    name: "Employee Management App",
+    technologies: "React JS,Node JS,Local Storage",
+    image: ems,
+    github: "https://github.com/ganeshm04/EMS",
+    live:"https://ganeshm04.github.io/EMS/"
+  },
+  {
+    id:4,
     name: "FOREVER CLOTHING Platform",
     technologies: "MERN stack (MongoDB, Express.js, React.js, Node.js), Tailwind CSS, JWT, Stripe API",
     image: ecom,
     github: "https://github.com/ganeshm04/E-Commerce-Forever-",
-  }
+  },
+  {
+    id: 5,
+    name: "Doctor Appointment Booking App",
+    technologies: "React JS,Node JS,Express JS",
+    image: dab,
+    github: "https://github.com/ganeshm04/DAB_app",
+    live: "https://ganeshm04.github.io/DAB_app/",
+  },
 ];
 
 const Projects = () => {

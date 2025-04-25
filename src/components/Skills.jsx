@@ -2,18 +2,21 @@ import React from 'react'
 import image1 from '../assets/image1.svg';
 import cpp from '../assets/cpp_png.png';
 import java from '../assets/java.svg';
-import react from '../assets/react-js.png'; 
+import react from '../assets/react-js.png';
 import node from '../assets/node-js.png';
-import js from '../assets/js.png';  
+import js from '../assets/js.png';
 import css from '../assets/css-3.png';
 import html from '../assets/html-5.png';
-import typescript from '../assets/typescript.png';  
+import typescript from '../assets/typescript.png';
 import git from '../assets/git-plain.svg';
 import mongodb from '../assets/mongodb.png';
 import docker from '../assets/docker.png';
 import sql from '../assets/sql.webp';
 import postman from '../assets/getpostman-icon.svg';
 import tailwind from '../assets/tailwind.svg';
+import genAi from '../assets/genAi.jpg';
+import nextjs from '../assets/nextjs.png';
+import { GenIcon } from 'react-icons';
 
 const Skills = () => {
     return (
@@ -24,18 +27,28 @@ const Skills = () => {
                     <img loading="lazy" src={image1} alt="" className="w-full aspect-square" />
                 </div>
                 <div className="w-full lg:px-20 lg:w-1/2 grid grid-cols-3 md:grid-cols-4 gap-4 lg:gap-10 text-white">
-                    
-                    <div className="skill w-full flex flex-col items-center gap-4 px-4">
-                        <img src={cpp} alt="" loading="lazy" className="w-full aspect-square" />
-                        <p className="text-center">C++</p>
-                    </div>
+
+
                     <div className="skill w-full flex flex-col items-center gap-4 px-4">
                         <img src={java} alt="" loading="lazy" className="w-full aspect-square" />
                         <p className="text-center">Java</p>
                     </div>
+
+                    <div className="skill w-full flex flex-col items-center gap-4 px-4">
+                        <img src={nextjs} alt="" loading="lazy" className="w-full aspect-square" />
+                        <p className="text-center">Next JS</p>
+                    </div>
                     <div className="skill w-full flex flex-col items-center gap-4 px-4">
                         <img src={react} alt="" loading="lazy" className="w-full aspect-square" />
                         <p className="text-center">ReactJS</p>
+                    </div>
+                    <div className="skill w-full flex flex-col items-center gap-4 px-4">
+                        <img src={genAi} alt="" loading="lazy" className="w-full aspect-square" />
+                        <p className="text-center">Gen AI</p>
+                    </div>
+                    <div className="skill w-full flex flex-col items-center gap-4 px-4">
+                        <img src={cpp} alt="" loading="lazy" className="w-full aspect-square" />
+                        <p className="text-center">C++</p>
                     </div>
                     <div className="skill w-full flex flex-col items-center gap-4 px-4">
                         <img src={node} alt="" loading="lazy" className="w-full aspect-square" />
@@ -81,6 +94,8 @@ const Skills = () => {
                         <img src={tailwind} alt="" loading="lazy" className="w-full aspect-square" />
                         <p className="text-center">Tailwind CSS</p>
                     </div>
+
+
                 </div>
             </div>
         </div>

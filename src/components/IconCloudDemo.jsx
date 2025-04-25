@@ -39,7 +39,7 @@ export default function IconCloudDemo() {
   );
 
   return (
-    <div className="relative flex size-full items-center justify-center overflow-hidden">
+    <div className="relative flex size-full items-center justify-center">
       <IconCloud images={images} />
     </div>
   );

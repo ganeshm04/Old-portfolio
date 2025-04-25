@@ -7,8 +7,8 @@ import Resume from './Resume'
 
 const Hero = () => {
   return (
-    <div className='c text-white text-center py-6 px-8'>
-      <div className='flex gap-10 flex-row justify-center  items-center'>
+    <div className='c text-white text-center py-6 px-4'>
+      <div className='flex gap-10 flex-row justify-center items-center'>
         <div className=''>
           <h1 className='text-3xl font-bold text-left'>Hi there</h1>
           <h1 className='text-4xl font-bold text-left'>
@@ -28,7 +28,7 @@ const Hero = () => {
             <Resume/>
           </div>
         </div>
-        <div className="hidden md:block  md:w-1/2 relative mt-5">
+        <div className="hidden md:block  md:w-1/2 relative h-full mt-5">
           <IconCloudDemo />
         </div>
       </div>
